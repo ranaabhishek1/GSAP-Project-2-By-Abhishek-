@@ -1,0 +1,268 @@
+@font-face {
+    font-family:poppins;
+    src: url(Fonts/Poppins.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    font-family:poppins;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 0 2vw;
+    
+}
+
+.navbar{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23vw;
+    border-bottom: 1px solid white;
+}
+
+.nav-logo img{
+    height: 6vh;
+}
+
+.nav-center a{
+    text-transform: uppercase;
+    margin: 0 1vw;
+}
+
+.nav-right a{
+    text-transform: uppercase;
+    margin: 0 2vw;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+        margin-top: 5vh;
+        margin-left: 2vw;
+}
+
+.left-part{
+    border-bottom: 1px solid white;
+}
+
+.left-part h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-left: 1vw;
+}
+
+.additional-text{
+    display: flex;
+    margin-top: 3vh;
+    gap: 15vw;
+    margin-left: 2vw;
+    text-transform: uppercase;
+}
+
+.scroll-down{
+    margin-top: 8vh;
+    font-size: 1rem;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+
+
+.left-part span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.left-part img{
+height: 10vh;
+border-radius: 4rem;
+}
+
+.right-part{
+    height: 60vh;
+    width: 33vw;
+    background-color: rgb(223, 144, 237);
+    border-radius: 1rem;
+    margin-right: 3vw;
+}
+
+.right-part{
+    height: 60vh;
+    margin-left: 10vw;
+    background-image: url(images/main-image.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.right-part-text1{
+    position: absolute;
+    margin-top: -57vh;
+    margin-left: 1.5vw;
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+/* container 2 */
+
+.container2{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    font-size: poppins;
+    color: white;
+    box-sizing: border-box;
+    padding-top: 20vh;
+    
+}
+
+.keywords p{
+width: 12vw;
+color: white;
+margin-top: 2vh;
+margin-left: 5vw;
+border: 2px solid white;
+padding:1vh 0.8vw;
+border-radius: 1.5rem;
+text-align: center;
+text-transform: uppercase;
+cursor: pointer;
+}
+
+#p1:hover{
+    background-color: rgba(248, 78, 16, 0.973);
+    transition: all;
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+}
+
+#p2:hover{
+    background-color: rgb(197, 55, 240);   
+    transition: all;
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+}
+
+#p3:hover{
+    background-color: rgb(47, 242, 37);   
+    
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35vh;
+    margin-left: 35vw;
+    gap: 0.5vw;
+}
+
+.box{
+    height: 40vh;
+    width: 18vw;
+    border-radius: 1rem;
+    
+}
+
+#box1{
+    background-color: rgba(248, 78, 16, 0.973);
+}
+
+#box2{
+    background-color: wheat;
+}
+
+#box3{
+    background-color: rgb(235, 220, 80);
+}
+
+.boxes-text{
+    text-transform: uppercase;
+}
+
+#box-text1{
+    position: absolute;
+    margin-left: 41vw;
+    margin-top: -36vh;
+    color: black;
+}
+
+
+#box-text2{
+    position: absolute;
+    margin-left: 41vw;
+    margin-top: -32vh;
+    color: black;
+}
+
+#box-arrow{
+    font-size: 2.5rem;
+    color: black;
+    position: absolute;
+    margin-left: 72vw;
+    margin-top: -40vh;
+}
+
+#box-text3{
+    position: absolute;
+    margin-left: 78vw;
+    margin-top: -36vh;
+    color: black;
+}
+
+#box-text4{
+    position: absolute;
+    margin-left: 78vw;
+    margin-top: -32vh;
+    color: black;
+}
+
+#box-text5{
+    color: black;
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: -13vh;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#box-text6{
+    color: black;
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: -9vh;
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+
+#box-text7{
+    color: black;
+    position: absolute;
+    margin-left: 80vw;
+    margin-top: -15vh;
+    font-size: 3rem;
+    
+}
+
+sup{
+    font-size: 1.3rem;
+    position: absolute;
+    color: black;
+    margin-top: -2vh;
+    margin-left: -1vw;   
+}
